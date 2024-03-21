@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Oxygen:wght@300;400;700&display=swap');
+
+body{
+    background: #232552;
+    margin: 0;
+    font-family: "Outfit", Arial;
+}
+
+.content{
+
+    display: grid;
+    position: relative;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.imageContent{
+
+    display: grid;
+    position: relative;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin: 10px;
+    height: 300px;
+}
+
+
+.imageSnk{
+
+    width: 910px;
+    border-radius:30px;
+
+}
+.textoTitulo{
+    font-family: "Outfit", Arial;
+    color: #ffffff;
+    position: absolute;
+    font-size: 2em;
+    top: 68%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.sinopsisContent {
+
+    color: #232552;
+    background: #ffffff;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    width: 870px;
+
+    padding-top: 0px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+
+    text-align: justify;
+    border: 2px solid black;
+    border-radius: 20px;
+
+}
+
+
+.character{
+    margin-top: 10px;
+    margin-bottom:10px;
+    display: inline-block
+
+}
+
+.imageCharacter {
+    margin-top: auto;
+    margin-bottom: auto;
+    float:left;
+    margin-right: 25px;
+}
+
+
+.sinopsisContent .titleContent {
+    color: black;
+    text-align: center;
+}
+
+.sinopsisContent .imageCharacter .eren {
+
+    width: 100px;
+    border-radius: 100px;
+
+}
+
+hr{
+    
+    border:  1px solid black;
+
+}
+
+.eren{
+
+    margin-top: auto;
+    margin-bottom: auto;
+
+}
+
+footer{
+    height: 80px;
+    background: #000000;
+    width: auto;
+
+
+}
+
+footer .link{
+
+margin: auto;
+
+
+}
+
+.logo{
+    margin-top: 20px;
+    justify-content: center;
+    width: 150px;
+
+
+}
+
+.videoContent{
+
+
+    margin-bottom: 20px;
+}
+
+.holanda{
+
+    display: grid;
+    position: relative;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+
+}
